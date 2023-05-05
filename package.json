@@ -1,0 +1,38 @@
+{
+  "name": "@iov/wallet-providers",
+  "version": "1.0.0",
+  "types": "build/index.d.ts",
+  "main": "build/index.js",
+  "files": [
+    "build/",
+    "*.md"
+  ],
+  "license": "Apache-2.0",
+  "author": "IOV SAS <admin@iov.one>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iov-one/wallet-providers"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@iov/signer-types": "^1.0.1",
+    "@types/secp256k1": "^4.0.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@cosmjs/amino": "^0.30.1",
+    "@cosmjs/encoding": "^0.30.1",
+    "@cosmjs/proto-signing": "^0.30.1",
+    "@iov/gdrive-custodian": "^1.4.0",
+    "@iov/ledger-iovns": "^2.1.1",
+    "@keplr-wallet/types": "^0.11.59",
+    "@ledgerhq/hw-transport": "^6.28.2",
+    "@ledgerhq/hw-transport-webusb": "^6.27.13",
+    "secp256k1": "^5.0.0"
+  }
+}
